@@ -278,7 +278,8 @@ img {
   letter-spacing: 0.1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background-image: #a7489b
+  background-image: #a7489b;
+
 
   background-size: 100%;
 
@@ -295,8 +296,8 @@ img {
     #a7489b
   );
   animation: background-image 5s ease-in-out forwards;
+  border-radius: 15px;
 }
-
 .home__social {
   display: flex-end;
   flex-direction: row;
