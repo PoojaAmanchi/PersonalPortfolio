@@ -1,0 +1,172 @@
+/* Work Experience */
+.achievements{
+    margin: auto;
+  }
+  .timeline {
+      position: relative;
+      width: 75%;
+      margin: 60px auto;
+  }
+
+  .timeline-box {
+      padding: 5px;
+      width: 45%;
+      min-height: 150px;
+      position: relative;
+      left: 5%;
+      text-align: right;
+  }
+
+  .timeline-box:nth-child(2n) {
+      left: 53%;
+  }
+
+  .timeline-box:nth-child(2n+1)::after {
+      right: -11.8%;
+  }
+
+  .timeline-box:nth-child(2n)::after {
+      left: -9%;
+  }
+
+  .timeline-container {
+      padding: 2px;
+  }
+
+  .timeline-logo {
+      position: absolute;
+      width: 50px;
+      overflow: hidden;
+  }
+
+  .timeline-logo > img {
+      width: 100%;
+  }
+
+  #timeline-divider {
+      position: absolute;
+      width: 0;
+      top: 10%;
+      left: 50%;
+      border: 1px dashed;
+      border-image: #A7489B;
+      border-image-slice: 1;
+      height: 86%;
+  }
+
+  #timeline-divider .timeline-traveller {
+      position: sticky;
+      top: 135px;
+      z-index: 2;
+  }
+
+  #timeline-divider i {
+      transform: rotate(90deg);
+      margin-top: -35px;
+      display: block;
+      color: #fff;
+      text-shadow: 0px 4px 16px rgba(255,255,255,.8);
+  }
+
+  .experience-designation {
+      font-size: 1.4rem;
+      text-align: left;
+      margin: 10px 0px;
+  }
+
+  .experience-company-name {
+      margin: 3px 0 0;
+      background: #A7489B;
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.2rem;
+      text-align: left;
+  }
+
+  .experience-duration {
+      font-weight: 100;
+      color: #dddddd;
+      font-size: 1rem;
+      text-align: left;
+      margin: 5px 0px;
+  }
+
+  .experience-description {
+      font-size: 14px;
+      padding: 2px;
+      color: lightgrey;
+      line-height: 20px;
+  }
+
+  .text-align-justify {
+      text-align: left;
+  }
+
+
+
+  .mb75px {
+      margin-bottom: 75px;
+  }
+
+  .section-heading {
+      width: auto;
+      padding: 20px 10px 10px;
+      font-weight: 400;
+      text-align: center;
+  }
+
+  .expEdu-title{
+    position: relative;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .expEdu-title::after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3rem;
+    border-bottom: 3px solid ;
+    border-image:  #A7489B;
+    border-image-slice: 1;
+  }
+
+
+  @media screen and (max-width: 768px){
+    .home__title{
+      font-size: 2rem;
+    }
+
+    .home__img{
+      position: absolute;
+      left: 25%;
+      top: 70%;
+      margin: auto;
+      width: 60%;
+      height: 60%;
+    }
+    .timeline {
+        position: relative;
+        width: 100%;
+        margin: 60px auto;
+    }
+
+
+    .timeline-box {
+        padding: 5px;
+        width: 45%;
+        min-height: 150px;
+        position: relative;
+        left: 2%;
+        text-align: right;
+    }
+
+    .timeline-box:nth-child(2n) {
+        left: 55%;
+    }
+  }
